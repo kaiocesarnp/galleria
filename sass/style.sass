@@ -57,4 +57,14 @@ body
                     &:hover
                         color: variables.$primary-color
                         
-                
+.gallery
+    @include mixins.flex-center
+    @include mixins.container
+    flex-wrap: wrap
+    justify-content: space-between
+    padding: 0
+
+    &-card // = .gallery-card
+        width: 31%
+        height: 400px
+        margin-bottom: 4%
