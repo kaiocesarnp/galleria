@@ -9,4 +9,8 @@
 body
     background-color: variables.$bg-color
     color: variables.$text-color
-    
+
+    a //apenas as tags 'a' dentro do body terão esse estilo. O espaçamento com tab para o 'a' ficar deslocado significa isso. É a mesma coisa que usar "body a{}". Isso é conhecido como nesting
+        color: variables.$text-color
+        text-decoration: none
+        transition: .4s
