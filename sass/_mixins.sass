@@ -9,3 +9,11 @@
     display: flex
     align-items: center
     justify-content: center //centraliza na horizontal, na vertical e o display flex deixa um elemento ao lado do outro em flexbox
+
+@mixin bg-img($img)
+  background-image: url('../img/#{$img}')
+  background-size: 100%
+  background-position: center
+  background-repeat: no-repeat
+  filter: grayscale(100%)
+  transition: .6s
