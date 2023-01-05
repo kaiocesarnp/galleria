@@ -197,7 +197,7 @@ body ul {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/natureza.jpg");
 }
 .gallery #card-7 {
-  background-image: url("../img/paisagem.jpg");
+  background-image: url("../img/maquiagem.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -207,7 +207,7 @@ body ul {
 .gallery #card-7:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/paisagem.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/maquiagem.jpg");
 }
 .gallery #card-8 {
   background-image: url("../img/pessoas.jpg");
